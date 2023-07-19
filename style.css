@@ -1,0 +1,124 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #c4b3a4;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+.main {
+    flex: 1;
+
+  }
+  .bg{
+    background-image: url(./Assets/music.png);
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  z-index: -1;
+  opacity: 0.1;
+  } 
+h1{
+    font-size: 3.5rem;
+    text-decoration: underline;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Roboto Slab', serif;
+  }
+#cap{
+    color: rgb(37, 25, 25);
+    margin-top: 0%;
+    font-size: 1.2rem;
+    font-style: italic;
+
+  }
+#treble{
+  font-size: 80px;
+  }
+.jammed{
+    font-style: italic;
+    font-weight: bold;
+    color: #413634;
+    font-size: 1.6rem;
+  }
+.card{
+    width: 48%;
+    background-color: #9F8772;
+    border-radius: 8%;
+    display: inline-block;
+    height: max-content;
+    
+
+  }
+.card-title{
+    text-align: center;
+    text-decoration: underline;
+  }
+img{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 3%;
+  }
+.info{
+    margin: 0px 10px 20px 10px;
+    text-align: center;
+}
+.inst{
+    font-style: italic;
+}
+.right{
+    float: right;
+    margin: 0px 0px 20px 2px ;
+}
+.left{
+    float: left;
+    margin: 0px 2px 20px 0px ;
+
+}
+#break{
+    display: block;
+}
+#gap{
+    display: block;
+    background-color: blue;
+    clear: both;
+}
+
+footer{
+    text-align: right;
+    margin: 0%;
+    clear: both;
+    font-size: 0.9rem;
+    color: #14100c;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+@media (max-width:680px) {
+    h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .jammed{
+      font-size: 1.3rem;
+    }
+    #treble{
+      font-size: 60px;
+      }
+    #cap{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .card{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+    footer{
+      text-align: center;
+      
+    }
+}
